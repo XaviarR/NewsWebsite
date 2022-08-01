@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+#title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: double;
+}
+
+#icon {
+    max-width: fit-content;
+    max-height: fit-content;
+    height: 35px;
+    width: 35px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+/*Creates bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(137, 137, 137);
+  }
+  /*Floats items in list to left*/
+li {
+    float: left;
+  }
+  /*Creates block for items*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*Changes color on hover*/
+li a:hover:not(.active){
+    background-color: #111;
+  }
+  /*Shows active*/
+.active{
+    background-color: #111;
+  }
